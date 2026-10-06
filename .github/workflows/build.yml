@@ -1,0 +1,37 @@
+# Rebuilds index.json, which den reads: when the list changes, and daily, so a
+# new release of a listed extension shows up as an update in den.
+name: build
+
+on:
+  push:
+    branches: [main]
+    paths: [extensions.json, tools/**]
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - run: cargo run --release --manifest-path tools/den-index/Cargo.toml -- build
+      - name: Commit index.json
+        run: |
+          git add index.json
+          if git diff --cached --quiet; then
+            echo "index.json unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update index.json"
+          git push

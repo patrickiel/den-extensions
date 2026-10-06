@@ -1,0 +1,13 @@
+[package]
+name = "den-index"
+version = "0.1.0"
+edition = "2024"
+publish = false
+description = "Checks the extensions listed in extensions.json and builds index.json, which den reads"
+
+[dependencies]
+# The same manifest rules den applies when it installs an extension.
+den-extension = { git = "https://github.com/patrickiel/den" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+ureq = "2"

@@ -1,0 +1,28 @@
+# Checks a pull request that lists an extension: it may change only
+# extensions.json, and each repository it adds must have a latest release den
+# can install (den-index check). Entries already listed only warn.
+name: check
+
+on:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Only extensions.json changes
+        run: |
+          changed=$(git diff --name-only "origin/${{ github.base_ref }}...HEAD")
+          if [ "$changed" != "extensions.json" ]; then
+            echo "A pull request that lists an extension changes extensions.json and nothing else. It changes:"
+            echo "$changed"
+            exit 1
+          fi
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Check the listed releases
+        run: |
+          git show "origin/${{ github.base_ref }}:extensions.json" > base.json || echo '{"extensions":[]}' > base.json
+          cargo run --release --manifest-path tools/den-index/Cargo.toml -- check --base base.json
