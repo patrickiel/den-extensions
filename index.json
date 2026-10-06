@@ -1,4 +1,25 @@
 {
-  "generated": 0,
-  "extensions": []
+  "generated": 1791315019,
+  "extensions": [
+    {
+      "repo": "patrickiel/task-buttons",
+      "id": "task-buttons",
+      "name": "Task Buttons",
+      "version": "0.1.0",
+      "api": 1,
+      "description": "The tasks in .vscode/tasks.json as buttons in den's title bar, like VS Code's Tasks extension.",
+      "icon_url": "https://raw.githubusercontent.com/patrickiel/task-buttons/HEAD/icon.svg",
+      "readme_url": "https://raw.githubusercontent.com/patrickiel/task-buttons/HEAD/README.md"
+    },
+    {
+      "repo": "patrickiel/workspace-stats",
+      "id": "workspace-stats",
+      "name": "Workspace Stats",
+      "version": "0.1.0",
+      "api": 1,
+      "description": "Remembers the folders den opens, sums up their languages, and reminds you to take a break.",
+      "icon_url": "https://raw.githubusercontent.com/patrickiel/workspace-stats/HEAD/icon.svg",
+      "readme_url": "https://raw.githubusercontent.com/patrickiel/workspace-stats/HEAD/README.md"
+    }
+  ]
 }
