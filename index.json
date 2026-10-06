@@ -1,6 +1,16 @@
 {
-  "generated": 1791315019,
+  "generated": 1791321590,
   "extensions": [
+    {
+      "repo": "patrickiel/git-graph",
+      "id": "git-graph",
+      "name": "Git Graph",
+      "version": "0.1.0",
+      "api": 1,
+      "description": "The repository's commits as a graph, with branch and commit actions, like vscode-git-graph.",
+      "icon_url": "https://raw.githubusercontent.com/patrickiel/git-graph/HEAD/icon.svg",
+      "readme_url": "https://raw.githubusercontent.com/patrickiel/git-graph/HEAD/README.md"
+    },
     {
       "repo": "patrickiel/task-buttons",
       "id": "task-buttons",
