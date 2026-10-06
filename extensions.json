@@ -1,2 +1,3 @@
 { "extensions": [ { "repo": "patrickiel/task-buttons" }, {
-  "repo": "patrickiel/workspace-stats" } ] }
+  "repo": "patrickiel/workspace-stats" },
+  { "repo": "patrickiel/git-graph" } ] }
