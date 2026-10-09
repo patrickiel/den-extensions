@@ -1,11 +1,11 @@
 {
-  "generated": 1791321590,
+  "generated": 1791521806,
   "extensions": [
     {
       "repo": "patrickiel/git-graph",
       "id": "git-graph",
       "name": "Git Graph",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "api": 1,
       "description": "The repository's commits as a graph, with branch and commit actions, like vscode-git-graph.",
       "icon_url": "https://raw.githubusercontent.com/patrickiel/git-graph/HEAD/icon.svg",
@@ -15,7 +15,7 @@
       "repo": "patrickiel/task-buttons",
       "id": "task-buttons",
       "name": "Task Buttons",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "api": 1,
       "description": "The tasks in .vscode/tasks.json as buttons in den's title bar, like VS Code's Tasks extension.",
       "icon_url": "https://raw.githubusercontent.com/patrickiel/task-buttons/HEAD/icon.svg",
@@ -25,7 +25,7 @@
       "repo": "patrickiel/workspace-stats",
       "id": "workspace-stats",
       "name": "Workspace Stats",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "api": 1,
       "description": "Remembers the folders den opens, sums up their languages, and reminds you to take a break.",
       "icon_url": "https://raw.githubusercontent.com/patrickiel/workspace-stats/HEAD/icon.svg",
