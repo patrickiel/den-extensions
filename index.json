@@ -1,5 +1,5 @@
 {
-  "generated": 1791522609,
+  "generated": 1791986650,
   "extensions": [
     {
       "repo": "patrickiel/git-graph",
@@ -10,6 +10,16 @@
       "description": "The repository's commits as a graph, with branch and commit actions, like vscode-git-graph.",
       "icon_url": "https://raw.githubusercontent.com/patrickiel/git-graph/HEAD/icon.svg",
       "readme_url": "https://raw.githubusercontent.com/patrickiel/git-graph/HEAD/README.md"
+    },
+    {
+      "repo": "patrickiel/slidev",
+      "id": "slidev",
+      "name": "Slidev",
+      "version": "0.1.0",
+      "api": 1,
+      "description": "Slidev decks in den: the slides as an outline, a live preview that follows the cursor, and the dev server one click away.",
+      "icon_url": "https://raw.githubusercontent.com/patrickiel/slidev/HEAD/icon.svg",
+      "readme_url": "https://raw.githubusercontent.com/patrickiel/slidev/HEAD/README.md"
     },
     {
       "repo": "patrickiel/task-buttons",
