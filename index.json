@@ -1,11 +1,11 @@
 {
-  "generated": 1792041980,
+  "generated": 1792052976,
   "extensions": [
     {
       "repo": "patrickiel/git-graph",
       "id": "git-graph",
       "name": "Git Graph",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "api": 1,
       "description": "The repository's commits as a graph, with branch and commit actions, like vscode-git-graph.",
       "icon_url": "https://raw.githubusercontent.com/patrickiel/git-graph/HEAD/icon.svg",
