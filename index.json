@@ -1,6 +1,16 @@
 {
-  "generated": 1792052976,
+  "generated": 1792263577,
   "extensions": [
+    {
+      "repo": "patrickiel/excalidraw",
+      "id": "excalidraw",
+      "name": "Excalidraw",
+      "version": "0.1.0",
+      "api": 1,
+      "description": "Excalidraw drawings in den: a .excalidraw file's Preview is Excalidraw itself, saving each change to the file.",
+      "icon_url": "https://raw.githubusercontent.com/patrickiel/excalidraw/HEAD/icon.svg",
+      "readme_url": "https://raw.githubusercontent.com/patrickiel/excalidraw/HEAD/README.md"
+    },
     {
       "repo": "patrickiel/git-graph",
       "id": "git-graph",
