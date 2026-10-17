@@ -1,4 +1,5 @@
 { "extensions": [ { "repo": "patrickiel/task-buttons" }, {
   "repo": "patrickiel/workspace-stats" },
   { "repo": "patrickiel/git-graph" },
-  { "repo": "patrickiel/slidev" } ] }
+  { "repo": "patrickiel/slidev" },
+  { "repo": "patrickiel/excalidraw" } ] }
