@@ -1,11 +1,11 @@
 {
-  "generated": 1792403768,
+  "generated": 1792837043,
   "extensions": [
     {
       "repo": "patrickiel/excalidraw",
       "id": "excalidraw",
       "name": "Excalidraw",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "api": 1,
       "description": "Excalidraw drawings in den: a .excalidraw file's Preview is Excalidraw itself, saving each change to the file.",
       "icon_url": "https://raw.githubusercontent.com/patrickiel/excalidraw/HEAD/icon.svg",
@@ -15,7 +15,7 @@
       "repo": "patrickiel/git-graph",
       "id": "git-graph",
       "name": "Git Graph",
-      "version": "0.3.1",
+      "version": "0.4.0",
       "api": 1,
       "description": "The repository's commits as a graph, with branch and commit actions, like vscode-git-graph.",
       "icon_url": "https://raw.githubusercontent.com/patrickiel/git-graph/HEAD/icon.svg",
@@ -25,9 +25,9 @@
       "repo": "patrickiel/slidev",
       "id": "slidev",
       "name": "Slidev",
-      "version": "0.3.1",
+      "version": "0.4.0",
       "api": 1,
-      "description": "Slidev decks in den: the slides as an outline, a live preview that follows the cursor, and the dev server one click away.",
+      "description": "Slidev decks in den: the slides as an outline, a live preview in the browser that follows the cursor, and the dev server one click away.",
       "icon_url": "https://raw.githubusercontent.com/patrickiel/slidev/HEAD/icon.svg",
       "readme_url": "https://raw.githubusercontent.com/patrickiel/slidev/HEAD/README.md"
     },
