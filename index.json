@@ -1,5 +1,5 @@
 {
-  "generated": 1794136683,
+  "generated": 1794465168,
   "extensions": [
     {
       "repo": "patrickiel/excalidraw",
@@ -40,16 +40,6 @@
       "description": "The tasks in .vscode/tasks.json as buttons in den's title bar, like VS Code's Tasks extension.",
       "icon_url": "https://raw.githubusercontent.com/patrickiel/task-buttons/HEAD/icon.svg",
       "readme_url": "https://raw.githubusercontent.com/patrickiel/task-buttons/HEAD/README.md"
-    },
-    {
-      "repo": "patrickiel/workspace-stats",
-      "id": "workspace-stats",
-      "name": "Workspace Stats",
-      "version": "0.2.1",
-      "api": 1,
-      "description": "Remembers the folders den opens, sums up their languages, and reminds you to take a break.",
-      "icon_url": "https://raw.githubusercontent.com/patrickiel/workspace-stats/HEAD/icon.svg",
-      "readme_url": "https://raw.githubusercontent.com/patrickiel/workspace-stats/HEAD/README.md"
     }
   ]
 }
